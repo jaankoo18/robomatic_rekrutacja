@@ -6,6 +6,8 @@ if __name__ == "__main__":
     try:
         if len(sys.argv) >= 2:
             find_biggest_blue_element(sys.argv[1])
+        else:
+            print("No arguments!")
 
     except Exception as err:
         print(err)
