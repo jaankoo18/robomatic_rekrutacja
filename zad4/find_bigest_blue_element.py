@@ -27,7 +27,7 @@ def find_biggest_blue_element(file_name):
         raise MyError("There is no blue element!")
 
 
-    cv2.drawContours(img, contour_to_draw, -1, (0, 255, 0), 2)
+    cv2.drawContours(img, contour_to_draw, -1, (0, 0, 0), 4)
     #cv2.drawContours(img, contours, -1, (0, 255, 0), 3)
 
     cv2.imshow("image", cv2.resize(img, (960, 540)))
